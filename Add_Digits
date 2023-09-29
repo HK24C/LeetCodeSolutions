@@ -6,7 +6,7 @@ public class Solution {
                 res += num%10;
                 num /= 10;
             }
-            num = res;
+            num = res; 
         }
 
         return num;
